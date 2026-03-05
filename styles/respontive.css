@@ -107,7 +107,7 @@
   }
 
   .fs-sm-36 {
-    font-size: 36px;
+    font-size: 36px !important;
   }
 
   .contact-grid {
