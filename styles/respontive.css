@@ -212,7 +212,11 @@
    768px — 1023px
 =================================== */
 
-@media (min-width: 768px) {}
+@media (max-width: 1080px) {
+  .section {
+    padding: 80px 60px !important;
+  }
+}
 
 @media (min-width: 426px) and (max-width: 800px) {
   .section {
@@ -343,6 +347,16 @@
     font-size: 28px;
     cursor: pointer;
     display: block;
+  }
+
+  .zoom-box {
+    position: absolute;
+    left: unset;
+    top: 3%;
+    right: 3%;
+    width: 200px;
+    height: 200px;
+
   }
 }
 
